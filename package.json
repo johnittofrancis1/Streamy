@@ -4,9 +4,11 @@
   "description": "Live Video Streaming App",
   "main": "index.js",
   "scripts": {
+    "start-watch": "nodemon index",
+    "dev": "concurrently \"npm run start-watch\"  \"cd client && npm run start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Johnitto Franci",
+  "author": "Johnitto Francis",
   "license": "ISC",
   "dependencies": {
     "body-parser": "file:C:/Users/johni/AppData/Roaming/npm/node_modules/body-parser",
