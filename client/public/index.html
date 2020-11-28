@@ -25,16 +25,16 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <!-- Semantic-UI css linking here -->
-    <link
-      async
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/semantic-ui@${props.versions.sui}/dist/semantic.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <!-- Portal for modals -->
+    <div id="modal"></div>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.

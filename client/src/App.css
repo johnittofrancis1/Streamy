@@ -1,0 +1,40 @@
+.primary-color
+{
+    color: #2185d0 !important;
+}
+
+.navbar__link {
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+  }
+  
+.navbar__link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar__link--active {
+  border-bottom: 3px solid #29b6f6;
+  transition: border-bottom .5s ease-in-out;
+}
+
+.login
+{
+  border: 1px solid aqua;
+}
+
+.error-msg 
+{
+  color: red;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+.stream
+{
+  padding: 10px !important;
+}
+
+.stream:hover
+{
+  background-color: azure;
+}
